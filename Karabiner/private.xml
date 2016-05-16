@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Konifar Setting</name>
+        <list>
+
+            <item>
+                <name>英数 ＋ HJKL ⇒ ←↓↑→</name>
+                <identifier>option.eisuu_hjkl</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT</autogen>
+                <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA1, KeyCode::CURSOR_DOWN</autogen>
+                <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::EXTRA1, KeyCode::CURSOR_UP</autogen>
+                <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA1, KeyCode::CURSOR_RIGHT</autogen>
+                <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT</autogen>
+                <autogen>--KeyToKey-- KeyCode::H, VK_SHIFT, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT, VK_SHIFT</autogen>
+            </item>
+
+            <item>
+                <name>英数 ＋ 0,4 ⇒ Home, End</name>
+                <identifier>option.eisuu_04</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+                <autogen>--KeyToKey-- KeyCode::KEY_4, ModifierFlag::EXTRA1, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+            </item>
+
+            <item>
+                <name>英数 ＋ Tab ⇒ Command ＋ Tab</name>
+                <identifier>option.eisuu_tab</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::TAB, ModifierFlag::EXTRA1, KeyCode::TAB, ModifierFlag::COMMAND_L</autogen>
+            </item>
+
+            <item>
+                <name>英数 ＋ D ⇒ Delete</name>
+                <identifier>option.eisuu_d</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::D, ModifierFlag::EXTRA1, KeyCode::DELETE</autogen>
+            </item>
+
+            <item>
+                <name>英数 ＋ セミコロン ⇒ Enter</name>
+                <identifier>option.eisuu_semicolon</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::EXTRA1, KeyCode::ENTER</autogen>
+            </item>
+
+            <item>
+                <name>英数 ＋ かな ⇒ Option ＋ Space</name>
+                <identifier>option.eisuu_kana</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::JIS_KANA, ModifierFlag::EXTRA1, KeyCode::SPACE, ModifierFlag::OPTION_L</autogen>
+            </item>
+
+            <item>
+                <name>skitch(Command ＋ Shift ＋ 5) ⇒ 英数 ＋ P</name>
+                <identifier>option.printscreen</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::P, ModifierFlag::EXTRA1, KeyCode::KEY_5, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L</autogen>
+            </item>
+
+            <item>
+                <name>Option ＋ V ⇒ 英数 ＋ V</name>
+                <identifier>option.clipboard</identifier>
+                <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                <autogen>--KeyToKey-- KeyCode::V, ModifierFlag::EXTRA1, KeyCode::V, ModifierFlag::OPTION_L</autogen>
+            </item>
+
+        </list>
+
+    </item>
+
+    <item>
+        <name>Konifar SublimeText2</name>
+            <list>
+
+                <item>
+                    <name>Option ＋ Ctrl + 1,2,3,4 ⇒ 英数 ＋ Ctrl + 1,2,3,4</name>
+                    <identifier>option.sublimesplittab</identifier>
+                    <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_1, ModifierFlag::EXTRA1 | ModifierFlag::COMMAND_L, KeyCode::KEY_1, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_2, ModifierFlag::EXTRA1 | ModifierFlag::COMMAND_L, KeyCode::KEY_2, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_3, ModifierFlag::EXTRA1 | ModifierFlag::COMMAND_L, KeyCode::KEY_3, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_4, ModifierFlag::EXTRA1 | ModifierFlag::COMMAND_L, KeyCode::KEY_4, ModifierFlag::OPTION_L | ModifierFlag::COMMAND_L</autogen>
+                </item>
+
+                <item>
+                    <name>Ctrl + 0,1,2,3,4 ⇒ Command + 0,1,2,3,4</name>
+                    <identifier>option.sublimemovegroup</identifier>
+                    <autogen>--KeyToKey-- KeyCode::KEY_1, ModifierFlag::COMMAND_L, KeyCode::KEY_1, ModifierFlag::CONTROL_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_2, ModifierFlag::COMMAND_L, KeyCode::KEY_2, ModifierFlag::CONTROL_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_3, ModifierFlag::COMMAND_L, KeyCode::KEY_3, ModifierFlag::CONTROL_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_4, ModifierFlag::COMMAND_L, KeyCode::KEY_4, ModifierFlag::CONTROL_L</autogen>
+                    <autogen>--KeyToKey-- KeyCode::KEY_0, ModifierFlag::COMMAND_L, KeyCode::KEY_0, ModifierFlag::CONTROL_L</autogen>
+                </item>
+
+            </list>
+    </item>
+
+    <item>
+        <name>Divvy</name>
+            <list>
+                <item>
+                    <name>Option ＋ S ⇒ 英数 ＋ S</name>
+                    <identifier>option.divvy</identifier>
+                    <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+                    <autogen>--KeyToKey-- KeyCode::S, ModifierFlag::EXTRA1, KeyCode::S, ModifierFlag::OPTION_L</autogen>
+                </item>
+            </list>
+    </item>
+
+</root>
